@@ -90,7 +90,7 @@ Se uso de un puerto analogico, el nueve, como podemos ver en la imagen, se elimi
   - Slave ID: `1`
   - Velocidad: `115200` baudios
 
-  ![Configuración debugger remoto](Images/serial1.jpg)
+  ![Configuración debugger remoto](Images/Serial1.jpg)
 
   *Figura 5: Configuración de depuración remota del sistema.*
 
