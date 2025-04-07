@@ -46,15 +46,12 @@ Finalmentes, las redes 4, 5, 6, 7 y 8 se usaron para implentar la logica ladder 
 
 Una vez el esquemático del Ladder estaba listo, se agrego un objeto de visualización para el diseño de la simulación con uso de un HMI (Interfaz Hombre-Maquina) el cual consiste en una interfaz para demostrar como sería el funcionamiento de la solución y como una persona interactúa con este mismo. 
 
-Debido al contexto del problema, donde buscabamos mandar una alerta con base al nivel de un liquido detectado mediante sensores, se deicido emplear botones como actuadores para reemplazar la funcionalidad de los sensores debido a la limitante de que CodeSys no cuenta con esta opción. De igual modo se incluyo una animación que mostrara un nivel del agua simulado con base al nivel de liquido detectado, es decir los botones accionados.
+Debido al contexto del problema, en el cual se busca generar una alerta en función del nivel de un líquido detectado mediante sensores, se decidió utilizar botones como actuadores para simular la funcionalidad de dichos sensores, dado que CodeSys no ofrece soporte directo para sensores físicos. Asimismo, se incluyó una animación que representa de forma visual el nivel del líquido, el cual varía de acuerdo con los botones activados, simulando así el comportamiento real del sistema.
 
-![HMI-Vacio](HMI-Vacio)
-![HMI-Low](HMI-Low)
-![HMI-Medium](HMI-Medium)
-![HMI-High](HMI-High)
-
-
-
+![HMI-Vacio](Images/HMI-Vacio.png)
+![HMI-Low](Images/HMI-Low.png)
+![HMI-Medium](Images/HMI-Medium.png)
+![HMI-High](Images/HMI-High.png)
 
 ## OpenPLC
 
