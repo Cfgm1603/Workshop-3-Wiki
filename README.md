@@ -48,7 +48,10 @@ Una vez el esquemático del Ladder estaba listo, se agrego un objeto de visualiz
 
 Debido al contexto del problema, donde buscabamos mandar una alerta con base al nivel de un liquido detectado mediante sensores, se deicido emplear botones como actuadores para reemplazar la funcionalidad de los sensores debido a la limitante de que CodeSys no cuenta con esta opción. De igual modo se incluyo una animación que mostrara un nivel del agua simulado con base al nivel de liquido detectado, es decir los botones accionados.
 
-![Redes 4-8](HMI-)
+![HMI-Vacio](HMI-Vacio)
+![HMI-Low](HMI-Low)
+![HMI-Medium](HMI-Medium)
+![HMI-High](HMI-High)
 
 
 
