@@ -4,7 +4,7 @@
 
 Ivan Alejandro Gutierrez Espinosa
 
-Cesar Felipe Giraldo Morat
+Cesar Felipe Giraldo Mora
 
 ## Introducción
 
