@@ -17,3 +17,11 @@ Este tipo de soluciones es ampliamente utilizado en la industria química y de p
 Con base en los datos proporcionados por el docente, el primer paso fue elaborar una tabla de verdad que incluyera todas las posibles combinaciones de entradas (inputs), junto con la salida (output) correspondiente para cada caso, de acuerdo con la lógica de funcionamiento del sistema. Dicha tabla se presenta a continuación:
 
 ![Tabla de Verdad](Images/Tabla_de_Verdad.png)
+
+Una vez construida la tabla de verdad, utilizamos una calculadora en línea de Mapas de Karnaugh para simplificar las expresiones lógicas correspondientes a cada una de las salidas (outputs). A partir de estas simplificaciones, obtuvimos los diagramas lógicos optimizados para el diseño del circuito. A continuación, se presentan dichos diagramas organizados en el siguiente orden: H1, H2, H3, H4 y H5.
+
+![Diagrama H1](Images/Diagrama_H1.png)
+![Diagrama H2](Images/Diagrama_H2.png)
+![Diagrama H3](Images/Diagrama_H3.png)
+![Diagrama H4](Images/Diagrama_H4.png)
+![Diagrama H5](Images/Diagrama_H5.png)
