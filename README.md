@@ -33,7 +33,6 @@ Una vez contabamos con los diagramas logicos, se realizó la implementación y s
 Una vez estamos en el software en el plano PLC_PRG se añadió el primer contacto para habilitar la pestaña de variables globales y asi crear todas las variables requeridad en el ejercicio.
 
 Con las variables configuradas en el CODESYS se construyó el esquemático siguiendo los procesos definidos en los diagramas logicos, para este se realizaron un total de 23 redes para el completo funcionamiento tanto para la lógica como para el HMI que sera implementado más adelante. 
-# Documentación del Proyecto
 
 ## OpenPLC
 
