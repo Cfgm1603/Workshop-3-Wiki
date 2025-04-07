@@ -36,11 +36,11 @@ Con las variables configuradas en el CODESYS se construyó el esquemático sigui
 
 Las primeras 3 redes se usaron como recoils de las señales negadas de los sensores B1, B2 y B3, esto con el fin de simplificar la implementación ladder de cada uno de los circuitos lógicos en el sistema.
 
-![Redes 1-3](Images/Redes_1-3)
+![Redes 1-3](Images/Redes_1-3.png)
 
 Finalmentes, las redes 4, 5, 6, 7 y 8 se usaron para implentar la logica ladder de los diagramas logicos para los outputs H1, H2, H3, H4 Y H5 respectivamente, asi como muestra la imagen a continuación
 
-![Redes 4-8](Images/Redes_4-8)
+![Redes 4-8](Images/Redes_4-8.png)
 
 ## OpenPLC
 
