@@ -12,3 +12,5 @@ Este tipo de soluciones es ampliamente utilizado en la industria química y de p
 
 ## Planteamiento y Diseño del Circuito
 Con base en los datos proporcionados por el docente, el primer paso fue elaborar una tabla de verdad que incluyera todas las posibles combinaciones de entradas (inputs), junto con la salida (output) correspondiente para cada caso, de acuerdo con la lógica de funcionamiento del sistema. Dicha tabla se presenta a continuación:
+
+![Tabla de Verdad](Images/Tabla de Verdad.png)
