@@ -42,6 +42,17 @@ Finalmentes, las redes 4, 5, 6, 7 y 8 se usaron para implentar la logica ladder 
 
 ![Redes 4-8](Images/Redes_4-8.png)
 
+### Simulación con un HMI 
+
+Una vez el esquemático del Ladder estaba listo, se agrego un objeto de visualización para el diseño de la simulación con uso de un HMI (Interfaz Hombre-Maquina) el cual consiste en una interfaz para demostrar como sería el funcionamiento de la solución y como una persona interactúa con este mismo. 
+
+Debido al contexto del problema, donde buscabamos mandar una alerta con base al nivel de un liquido detectado mediante sensores, se deicido emplear botones como actuadores para reemplazar la funcionalidad de los sensores debido a la limitante de que CodeSys no cuenta con esta opción. De igual modo se incluyo una animación que mostrara un nivel del agua simulado con base al nivel de liquido detectado, es decir los botones accionados.
+
+![Redes 4-8](HMI-)
+
+
+
+
 ## OpenPLC
 
 ### Implementación
