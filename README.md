@@ -73,6 +73,23 @@ Para la implementación del proyecto utilizando OpenPLC y Codesys, se llevaron a
 
    *Figura 2: Tabla de direccionamiento físico utilizada en OpenPLC.*
 
+### Implementación física con Arduino
+
+La implementación física del proyecto se llevó a cabo utilizando un Arduino Uno, combinado con una protoboard donde se montaron todos los componentes necesarios para verificar el comportamiento lógico diseñado previamente en OpenPLC y Codesys.
+
+#### Montaje y cableado:
+
+El montaje consistió principalmente en conectar entradas y salidas digitales del Arduino directamente a componentes como pulsadores, dipswitches, resistencias (pull-down) y LEDs para verificar el correcto funcionamiento de cada lógica combinacional programada.
+
+La configuración de conexiones fue la siguiente:
+
+- **Entradas digitales**: Pulsadores y dipswitches conectados a través de resistencias pull-down de 10 kΩ. Eventualmente se mencionará en pruebas, como estas entradas nunca funcionaron, entonces se llevo uso las entradas directas de vcc y tierra para manejar estos casos.
+- **Salidas digitales**: LEDs con resistencias limitadoras conectados a los pines digitales configurados previamente en OpenPLC.
+
+![Montaje físico del proyecto](Images/Montaje.jpeg)
+
+*Figura 6: Montaje físico utilizado para pruebas del sistema. Se observa la conexión directa del Arduino con componentes externos (LEDs, resistencias y cableado hacia entradas digitales).*
+
 ### Pruebas
 
 Para garantizar la funcionalidad y confiabilidad del sistema, se realizaron pruebas exhaustivas que incluyeron:
