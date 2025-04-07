@@ -25,3 +25,11 @@ Una vez construida la tabla de verdad, utilizamos una calculadora en línea de M
 ![Diagrama H3](Images/Diagrama_H3.png)
 ![Diagrama H4](Images/Diagrama_H4.png)
 ![Diagrama H5](Images/Diagrama_H5.png)
+
+## CodeSys
+Una vez contabamos con los diagramas logicos, se realizó la implementación y simulación del diseño usado CODESYS, para este apartado se realizaron las actividades de el esquemático del Ladder y luego la simulación del mismo con un HMI que muestre su funcionamiento a través de una animación.
+
+### Esquemático Ladder del diseño
+Una vez estamos en el software en el plano PLC_PRG se añadió el primer contacto para habilitar la pestaña de variables globales y asi crear todas las variables requeridad en el ejercicio.
+
+Con las variables configuradas en el CODESYS se construyó el esquemático siguiendo los procesos definidos en los diagramas logicos, para este se realizaron un total de 23 redes para el completo funcionamiento tanto para la lógica como para el HMI que sera implementado más adelante. 
