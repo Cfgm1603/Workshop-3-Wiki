@@ -32,7 +32,15 @@ Una vez contabamos con los diagramas logicos, se realizó la implementación y s
 ### Esquemático Ladder del diseño
 Una vez estamos en el software en el plano PLC_PRG se añadió el primer contacto para habilitar la pestaña de variables globales y asi crear todas las variables requeridad en el ejercicio.
 
-Con las variables configuradas en el CODESYS se construyó el esquemático siguiendo los procesos definidos en los diagramas logicos, para este se realizaron un total de 23 redes para el completo funcionamiento tanto para la lógica como para el HMI que sera implementado más adelante. 
+Con las variables configuradas en el CODESYS se construyó el esquemático siguiendo los procesos definidos en los diagramas logicos, para este se realizaron un total de 8 redes para el completo funcionamiento tanto para la lógica como para el HMI que sera implementado más adelante.
+
+Las primeras 3 redes se usaron como recoils de las señales negadas de los sensores B1, B2 y B3, esto con el fin de simplificar la implementación ladder de cada uno de los circuitos lógicos en el sistema.
+
+![Redes 1-3](Images/Redes_1-3)
+
+Finalmentes, las redes 4, 5, 6, 7 y 8 se usaron para implentar la logica ladder de los diagramas logicos para los outputs H1, H2, H3, H4 Y H5 respectivamente, asi como muestra la imagen a continuación
+
+![Redes 4-8](Images/Redes_4-8)
 
 ## OpenPLC
 
