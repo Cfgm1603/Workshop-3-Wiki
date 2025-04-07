@@ -73,7 +73,7 @@ Se llevó a cabo un montaje físico, empleando diversas placas Arduino Uno, esta
   - **Salidas digitales**: Pines 7, 8, 12, 13, 9.
 
   ![Configuración pines Arduino Uno](Images/Ports.jpg)
-
+Se uso de un puerto analogico, el nueve, como podemos ver en la imagen, se eliminan todos los demas puertos analogicos planteados para eliminar posibles conflictos en el futuro.
   *Figura 3: Configuración de pines de entrada y salida en OpenPLC para Arduino Uno.*
 
 - **Configuración del protocolo serial Modbus RTU**:
@@ -81,7 +81,7 @@ Se llevó a cabo un montaje físico, empleando diversas placas Arduino Uno, esta
   - Velocidad: `115200` baudios.
   - Interfaz utilizada: `Serial`
 
-  ![Configuración serial Modbus RTU](Images/serial_2.jpg)
+  ![Configuración serial Modbus RTU](Images/serial2.jpg)
 
   *Figura 4: Configuración de comunicación serial Modbus RTU.*
 
@@ -90,7 +90,7 @@ Se llevó a cabo un montaje físico, empleando diversas placas Arduino Uno, esta
   - Slave ID: `1`
   - Velocidad: `115200` baudios
 
-  ![Configuración debugger remoto](Images/serial_1.jpg)
+  ![Configuración debugger remoto](Images/serial1.jpg)
 
   *Figura 5: Configuración de depuración remota del sistema.*
 
